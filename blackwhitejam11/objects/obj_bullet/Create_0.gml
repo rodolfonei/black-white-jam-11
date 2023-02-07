@@ -1,6 +1,6 @@
 /// @description Variables
 
-speed = 10;
+speed = 15;
 
 
 

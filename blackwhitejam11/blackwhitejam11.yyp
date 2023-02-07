@@ -3,8 +3,10 @@
   "resourceVersion": "1.6",
   "name": "blackwhitejam11",
   "resources": [
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":1,},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":2,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},"order":0,},
