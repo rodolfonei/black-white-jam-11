@@ -18,6 +18,12 @@ if (moveLeft) {
 vx = (moveRight - moveLeft) * walkSpeed;
 vy = (moveDown - moveUp) * walkSpeed;
 
+// Check tiles collision
+var _tilemap = layer_tilemap_get_id("Tiles"); 
+if (tilemap_get_at_pixel(_tilemap, x, y)) {
+	instance_destroy();
+}
+
 // If idle
 if (vx == 0 and vy == 0) {
 
